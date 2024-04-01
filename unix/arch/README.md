@@ -32,3 +32,25 @@ Prefered OS:
 ### Kitty
 
 - `yay kitty` 
+
+### Hyprland
+
+- `yay hyprland`
+- `sudo pacman -S foot` 
+
+### ZSH
+
+- `yay zsh`
+
+OhMyZSH:
+
+- `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+zsh-autosuggestion:
+
+- [install](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+
+# Wofi
+
+- `yay wofi`
+- `wofi --show drun`
