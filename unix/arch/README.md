@@ -19,7 +19,6 @@ Prefered OS:
 ### Google Chrome
 
 - `yay google-chrome`
-- Follow the CLI
 
 ### VsCodium
 
@@ -29,3 +28,7 @@ Prefered OS:
 ### GitHub Desktop
 
 - `yay github-desktop`
+
+### Kitty
+
+- `yay kitty` 
