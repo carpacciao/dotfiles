@@ -11,7 +11,9 @@ Prefered OS:
 - Installed with KDE Plasma desktop
 - Install things with
     - `sudo pacman -S <package>`
-    - `yay <package>` 
+    - `yay <package>`
+ 
+- `timedatectl set-local-rtc 1 --adjust-system-clock` disables wrong time windows/linux
 
 
 ## Softwares
