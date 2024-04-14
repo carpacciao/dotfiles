@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # https://macos-defaults.com/
 
 # Dock

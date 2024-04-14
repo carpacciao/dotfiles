@@ -1,34 +1,22 @@
+# dotfiles
 
+lvd's dotfiles. Made for osx, apple ship.
 
-Install homebrew
+## Setup
 
-add to zprofile : export HOMEBREW_CASK_OPTS=--no-quarantine
+Install [homebrew](https://brew.sh/). Do not forget to setup the homebrew path into the zprofile.
 
+> I had a problem installing apps from homebrew, add this to your zprofile
+>
+> `export HOMEBREW_CASK_OPTS=--no-quarantine`
+
+Homebrew should install git from xcode.
+
+Install rosetta for compatibility:
+```
 softwareupdate --install-rosetta
+```
 
+## Post installation
 
-brew install --cask vscodium
-brew install --cask google-chrome
-brew install --cask discord
-brew install --cask ukelele
-brew install --cask github
-brew install --cask raycast
-brew install --cask alacritty
-
-## Media
-
-From youtube install youtube music
-
-
-## Finder
-
-Go to finder settings, add home to sidebar
-
-## Raycast
-
-follow the setup, set window+space
-
-## Umbra
-
-install from https://replay.software/umbra
-Move it to Application folder
+see [post installation](./post_installation.md).
