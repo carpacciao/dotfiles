@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Setup symlinks
-# source config/scripts/symlinks.sh
-stow --restow home
+source scripts/symlinks.sh
 
 # Update settings
 source ~/.zshrc
