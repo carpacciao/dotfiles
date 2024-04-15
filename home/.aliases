@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Dotfiles
+alias dotfiles='cd ~/dotfiles'

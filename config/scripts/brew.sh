@@ -15,6 +15,7 @@ brew tap homebrew/cask-fonts
 
 # Install binaries
 brew install stow
+brew install neofetch
 brew install zsh-autosuggestions
 
 # Fonts

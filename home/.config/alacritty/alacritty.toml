@@ -10,3 +10,6 @@ TERM = "xterm-256color"
 [font]
 size = 14.0
 normal = { family = "Cascadia Code" }
+
+[window]
+decorations = "buttonless"

@@ -9,8 +9,11 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
+# Oh my ZSH
 source $ZSH/oh-my-zsh.sh
 
 # See https://github.com/zsh-users/zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Aliases
+source $HOME/.aliases
