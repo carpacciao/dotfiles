@@ -11,10 +11,14 @@ brew update
 brew upgrade
 
 # Add taps
+brew tap homebrew/cask-fonts
 
 # Install binaries
 brew install stow
 brew install zsh-autosuggestions
+
+# Fonts
+brew install font-cascadia-code
 
 # Install casks
 brew install --cask vscodium
