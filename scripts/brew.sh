@@ -22,7 +22,7 @@ brew install zsh-autosuggestions
 brew install font-cascadia-code
 
 # Install casks
-brew install --cask vscodium
+brew install --cask visual-studio-code
 brew install --cask google-chrome
 brew install --cask discord
 brew install --cask ukelele

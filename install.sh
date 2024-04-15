@@ -12,6 +12,6 @@ source scripts/brew.sh
 source link.sh
 
 # Setup symlink
-source scripts/codium-extensions.sh
+source scripts/vscode-extensions.sh
 
 echo "Everything should be done. Reboot the user session and you good to go."

@@ -1,0 +1,17 @@
+{
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.preferredDarkColorTheme": "Tokyo Night Storm",
+    "workbench.preferredLightColorTheme": "Rosé Pine Dawn (no italics)",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "window.autoDetectColorScheme": true,
+    "editor.fontFamily": "'Cascadia Code'",
+    "editor.fontLigatures": "'calt', 'ss01'",
+    "editor.renderWhitespace": "trailing",
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace",
+    "editor.minimap.enabled": false,
+    "explorer.compactFolders": false,
+}
