@@ -13,3 +13,8 @@ normal = { family = "Cascadia Code" }
 
 [window]
 decorations = "buttonless"
+dynamic_padding = false
+
+[window.padding]
+x = 14
+y = 14
