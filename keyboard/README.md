@@ -11,7 +11,7 @@ System Settings -> Keyboard -> Shortcuts -> Modification Keys -> select the keyb
 ```
 
 
-## Build the layout
+## Build the layout
 
 - Open the file with Ukelele and go to: file -> export installer disk image
 - open the dmg and open the installer
