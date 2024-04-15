@@ -1,5 +1,9 @@
 # Tokyo Night Storm
 
+[window]
+opacity = 0.7
+blur = true
+
 # Default colors
 [colors.primary]
 background = '#24283b'
