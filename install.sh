@@ -8,10 +8,10 @@ source scripts/system.sh
 # Install Homebrew formulae
 source scripts/brew.sh
 
-# Setup symlink
-source link.sh
+# Source symlinks and source zsh
+source source.sh
 
-# Setup symlink
+# Install vscode extension
 source scripts/vscode-extensions.sh
 
 echo "Everything should be done. Reboot the user session and you good to go."
