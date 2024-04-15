@@ -11,4 +11,7 @@ source scripts/brew.sh
 # Setup symlink
 source link.sh
 
+# Setup symlink
+source scripts/codium-extensions.sh
+
 echo "Everything should be done. Reboot the user session and you good to go."

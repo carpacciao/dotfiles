@@ -2,6 +2,15 @@
 
 lvd's dotfiles. Made for osx, apple ship.
 
+It contains:
+- custom keyboard layout (belgian)
+- macos defaults
+- alacritty
+- wallpapers
+- vscode
+- bunch of brew apps
+- some themes adapted to my colorblindness
+
 ## Setup
 
 Install [homebrew](https://brew.sh/). Do not forget to setup the homebrew path into the zprofile.

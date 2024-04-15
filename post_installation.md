@@ -24,3 +24,4 @@ Choose both wallpapers for dark and light mode from the `~/dotfiles/config/wallp
 ## Chrome
 
 Disable hardware accel if needed
+
