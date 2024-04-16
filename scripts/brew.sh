@@ -19,6 +19,7 @@ brew install stow
 brew install neofetch
 brew install jq
 brew install zsh-autosuggestions
+brew install cormacrelf/tap/dark-notify
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 brew install borders

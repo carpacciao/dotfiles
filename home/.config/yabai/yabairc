@@ -53,3 +53,8 @@ yabai -m rule --add app="^QuickTime Player$" manage=off
 # Launch borders, for borders around windows
 
 borders &
+
+# ------------------------------
+# Notify when theme switch
+
+dark-notify -c 'source ~/.config/theme-notify/notify.sh' &
