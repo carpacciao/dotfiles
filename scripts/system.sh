@@ -9,6 +9,7 @@ defaults write com.apple.dock "static-only" -bool "true" # show only running app
 defaults write com.apple.dock "autohide" -bool "true"
 defaults write com.apple.dock "autohide-delay" -float "0.1"
 defaults write com.apple.dock "autohide-time-modifier" -float "0.2"
+defaults write com.apple.dock mru-spaces -bool false
 
 # Mouse
 defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"

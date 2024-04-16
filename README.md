@@ -26,6 +26,13 @@ Install rosetta for compatibility:
 softwareupdate --install-rosetta
 ```
 
+## Requirements
+
+- Mono screen:
+  - ??
+- Dual screen:
+  - Create 3 space on each sreens
+
 ## Post installation
 
 see [post installation](./post_installation.md).

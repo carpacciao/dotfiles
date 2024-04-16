@@ -12,11 +12,17 @@ brew upgrade
 
 # Add taps
 brew tap homebrew/cask-fonts
+brew tap FelixKratz/formulae
 
 # Install binaries
 brew install stow
 brew install neofetch
+brew install jq
 brew install zsh-autosuggestions
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+brew install borders
+
 
 # Fonts
 brew install font-cascadia-code
@@ -29,6 +35,7 @@ brew install --cask ukelele
 brew install --cask github
 brew install --cask raycast
 brew install --cask alacritty
+brew install --cask keeweb
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

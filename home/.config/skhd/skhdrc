@@ -1,0 +1,22 @@
+# change window focus within space
+
+ctrl + alt - h : yabai -m query --spaces --space 3 | jq -r '.windows[0] // empty' | xargs yabai -m window --focus
+ctrl + alt - down : yabai -m window --focus south
+ctrl + alt - up : yabai -m window --focus north
+ctrl + alt - left : yabai -m window --focus west
+ctrl + alt - right : yabai -m window --focus east
+
+# Rotate windows in the current space clockwise
+ctrl + alt - r : ~/.config/skhd/utils/cycle_clockwise.sh
+# Rotate space layout clockwise, wihout changing window positions
+ctrl + alt - t :  yabai -m space --rotate 270
+
+ctrl + alt - return : alacritty
+
+# Replace <- and -> switch space
+ctrl - left : yabai -m space --focus prev
+ctrl - right : yabai -m space --focus next
+
+# Cycle through windows in the stack
+alt - tab : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+# alt - p : yabai -m window --focus stack.next || yabai -m window --focus stack.first
