@@ -25,9 +25,18 @@ Choose both wallpapers for dark and light mode from the `~/dotfiles/config/wallp
 
 Disable hardware accel if needed
 
-## Yabai
+## Yabai
 
 - Disable SIP
 - `System Settings -> Keyboard -> Shortcuts -> Mission Control -> enable Mission Control`
 - `System Settings -> Acessibility -> Reduce animation`
 - Potential debug if nothing is working: `sudo yabai --load-sa` (hit it twice in the terminal)
+- `yabai --start-service`
+
+## SKHD
+
+- `skhd --start-service`
+
+## Sketchybar
+
+- `brew services start sketchybar`

@@ -23,10 +23,12 @@ brew install cormacrelf/tap/dark-notify
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 brew install borders
+brew install sketchybar
 
 
 # Fonts
 brew install font-cascadia-code
+brew install --cask font-hack-nerd-font
 
 # Install casks
 brew install --cask visual-studio-code

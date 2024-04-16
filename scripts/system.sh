@@ -11,6 +11,9 @@ defaults write com.apple.dock "autohide-delay" -float "0.1"
 defaults write com.apple.dock "autohide-time-modifier" -float "0.2"
 defaults write com.apple.dock mru-spaces -bool false
 
+# Top bar
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
 # Mouse
 defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
 defaults write -g com.apple.swipescrolldirection -bool false

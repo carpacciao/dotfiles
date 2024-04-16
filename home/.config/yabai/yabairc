@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo yabai --load-sa
+
 # ------------------------------
 # Yabai config
 
@@ -15,6 +17,9 @@ yabai -m config bottom_padding 12
 yabai -m config left_padding 12
 yabai -m config right_padding 12
 yabai -m config window_gap 12
+
+# external bar
+yabai -m config external_bar all:32:0
 
 # When an app is opened, it follows it (even through spaces), probably not needed if you "SIP your mac"
 yabai -m signal --add event=window_created action="sh ~/.config/yabai/utils/focus_new_window.sh"
