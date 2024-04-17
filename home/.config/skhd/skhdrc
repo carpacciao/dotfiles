@@ -9,13 +9,19 @@ ctrl + alt - right : yabai -m window --focus east
 # Rotate windows in the current space clockwise
 ctrl + alt - r : ~/.config/skhd/utils/cycle_clockwise.sh
 # Rotate space layout clockwise, wihout changing window positions
-ctrl + alt - t :  yabai -m space --rotate 270
+ctrl + alt - t : yabai -m space --rotate 270
 
 ctrl + alt - return : alacritty
 
-# Replace <- and -> switch space
+# [A] [Z] [E] for [4] [5] [6] space
 ctrl - left : yabai -m space --focus prev
 ctrl - right : yabai -m space --focus next
+ctrl - 0x12 : yabai -m space --focus 1
+ctrl - 0x13 : yabai -m space --focus 2
+ctrl - 0x14 : yabai -m space --focus 3
+ctrl - a : yabai -m space --focus 4
+ctrl - z : yabai -m space --focus 5
+ctrl - e : yabai -m space --focus 6
 
 # Cycle through windows in the stack
 alt - tab : yabai -m window --focus stack.prev || yabai -m window --focus stack.last

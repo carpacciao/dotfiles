@@ -28,7 +28,9 @@ Disable hardware accel if needed
 ## Yabai
 
 - Disable SIP
-- `System Settings -> Keyboard -> Shortcuts -> Mission Control -> enable Mission Control`
+- Mission control
+  - `System Settings -> Keyboard -> Shortcuts -> Mission Control -> enable Mission Control`
+  - Doing the above instruction is not needed since I remapped all the keys
 - `System Settings -> Acessibility -> Reduce animation`
 - Potential debug if nothing is working: `sudo yabai --load-sa` (hit it twice in the terminal)
 - `yabai --start-service`
