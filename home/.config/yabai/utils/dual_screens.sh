@@ -46,11 +46,13 @@ done
 # 1 - shell
 setup_space 1 shell bsp 1
 yabai -m rule --add app="^alacritty$" space=^1
+yabai -m rule --add app="^Alacritty$" space=^1
 
 # 2 - code
 setup_space 2 code stack 1
 yabai -m rule --add app="^Visual Studio Code$" space=^2
 yabai -m rule --add app="^Code$" space=^2
+yabai -m rule --add app="^Xcode$" space=^2
 
 # 3 - web
 setup_space 3 web stack 1

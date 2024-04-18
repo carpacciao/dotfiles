@@ -3,6 +3,10 @@
 sudo yabai --load-sa
 
 # ------------------------------
+# Source variables
+source ~/.config/theme-notify/variables.sh
+
+# ------------------------------
 # Yabai config
 
 # default layout (can be bsp, stack or float)
@@ -19,7 +23,7 @@ yabai -m config right_padding 12
 yabai -m config window_gap 12
 
 # external bar
-yabai -m config external_bar all:32:0
+yabai -m config external_bar all:34:0
 
 # When an app is opened, it follows it (even through spaces), probably not needed if you "SIP your mac"
 yabai -m signal --add event=window_created action="sh ~/.config/yabai/utils/focus_new_window.sh"

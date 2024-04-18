@@ -24,10 +24,12 @@ brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 brew install borders
 brew install sketchybar
+brew install mas
 
 
 # Fonts
 brew install font-cascadia-code
+brew install font-sf-pro
 brew install --cask font-hack-nerd-font
 
 # Install casks
@@ -39,6 +41,12 @@ brew install --cask github
 brew install --cask raycast
 brew install --cask alacritty
 brew install --cask keeweb
+brew install --cask superlist
+brew install --cask figma
+brew install --cask sf-symbols
+
+# Apple store apps
+mas install 497799835 # Xcode
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
