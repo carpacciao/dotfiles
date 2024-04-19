@@ -14,11 +14,13 @@ do
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=14
     icon.padding_right=14
-    background.color=$ACTIVE_BORDER_COLOR
-    icon.color=$WHITE_COLOR
+    background.color=$INFO_COLOR
+    background.border_width=0
+    icon.color=$FONT_COLOR
+    icon.highlight_color=$BACKGROUND_COLOR
     icon.font="Cascadia Code:Bold:14.0"
     background.corner_radius=5
-    background.height=25
+    background.height=18
     label.drawing=off
     script="$PLUGIN_DIR/space.sh"
     click_script="yabai -m space --focus $sid"

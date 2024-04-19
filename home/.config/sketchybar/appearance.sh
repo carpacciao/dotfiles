@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.config/theme-notify/variables.sh
+source ~/.config/themify/theme.sh
 
 appearance=(
   position=top

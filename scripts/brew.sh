@@ -26,6 +26,8 @@ brew install borders
 brew install sketchybar
 brew install mas
 
+# Install code related packager, languages,...
+brew install go
 
 # Fonts
 brew install font-cascadia-code

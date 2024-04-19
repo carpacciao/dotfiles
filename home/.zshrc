@@ -17,3 +17,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
 source $HOME/.aliases
+
+# Local bin 
+export PATH=.:~/.local/bin:$PATH

@@ -4,7 +4,7 @@ sudo yabai --load-sa
 
 # ------------------------------
 # Source variables
-source ~/.config/theme-notify/variables.sh
+source ~/.config/themify/theme.sh
 
 # ------------------------------
 # Yabai config
@@ -59,11 +59,6 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 
 # ------------------------------
-# Launch borders, for borders around windows
-
-borders &
-
-# ------------------------------
 # Notify when theme switch
 
-dark-notify -c 'source ~/.config/theme-notify/notify.sh' &
+dark-notify -c 'source ~/.config/themify/notify.sh' &

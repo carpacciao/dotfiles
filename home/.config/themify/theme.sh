@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#### Current Theme ####
-# Loads all colors variables
-source ~/.config/theme-notify/themes/dark.sh
+source ~/.config/themify/modes/dark.sh
 
 #### Theme ####
 
