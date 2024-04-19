@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Vérifie si un fichier est spécifié en argument
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <fichier_mov>"
+    exit 1
+fi
+
+# Obtient le nom du fichier sans extension
+filename=$(basename -- "$1")
+filename="${filename%.*}"
+
+# Convertit le fichier MOV en GIF
+ffmpeg -i "$1" -pix_fmt rgb8 -r 10 "${filename}.gif" && gifsicle -O3 "${filename}.gif" -o "${filename}.gif"
+
+rm "$1"

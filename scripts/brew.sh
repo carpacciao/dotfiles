@@ -25,6 +25,8 @@ brew install koekeishiya/formulae/skhd
 brew install borders
 brew install sketchybar
 brew install mas
+brew install ffmpeg
+brew install gifsicle
 
 # Install code related packager, languages,...
 brew install go
@@ -46,6 +48,7 @@ brew install --cask keeweb
 brew install --cask superlist
 brew install --cask figma
 brew install --cask sf-symbols
+brew install --cask licecap
 
 # Apple store apps
 mas install 497799835 # Xcode

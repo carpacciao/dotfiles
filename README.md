@@ -1,5 +1,7 @@
 # dotfiles
 
+![dotfiles](./assets/dotfiles.gif)
+
 lvd's dotfiles. Made for osx, apple ship.
 
 It contains:
