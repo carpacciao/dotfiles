@@ -27,9 +27,11 @@ brew install sketchybar
 brew install mas
 brew install ffmpeg
 brew install gifsicle
+brew install bat
 
 # Install code related packager, languages,...
 brew install go
+brew install nvm
 
 # Fonts
 brew install font-cascadia-code

@@ -8,3 +8,5 @@ code --install-extension GitHub.github-vscode-theme
 code --install-extension PKief.material-icon-theme
 code --install-extension tamasfe.even-better-toml
 code --install-extension golang.Go
+code --install-extension Vue.volar
+code --install-extension christian-kohler.path-intellisense
